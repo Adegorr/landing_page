@@ -1,0 +1,169 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    background: #9B4444;
+    color: #EEEEEE;
+}
+
+nav {
+    max-height: 100px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F3B95F;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+ul {
+    width: 20%; 
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 5px;
+    list-style-type: none;
+    border-radius: 6px;
+    margin-left: 60px ;
+}
+
+.section1 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffc061;
+}
+
+.section1signup {
+    color: black;
+    background-color: #F3B95F;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section1signup:hover {
+    color: #ffc061;
+    background-color: black;
+}
+
+.hero {
+    width: 700px;
+    border-radius: 12px;
+    border: solid 3px #ffc061;
+    position: relative;
+}
+
+.section1left {
+    width: 40%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding-right: 10%;
+}
+
+.section2 {
+    height: 500px;
+    background-color: lightgrey;
+    color: black;
+    padding: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section2wrp {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section2container img {
+    width: 300px;
+    height: 200px;
+    border: solid 5px #ffc061;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.section3 {
+    height: 500px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.author {
+    position: relative;
+    top: 20px;
+}
+
+.section4 {
+    min-height: 300px;
+}
+
+.subsection4 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #ffc061;
+    color: black;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-right: 300px;
+}
+
+.section4signup {
+    color: #F3B95F;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 2px white;
+    margin-top: 90px;
+}
+.section4signup:hover {
+    color: black;
+    background-color: #ffc061;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="Document_files/styles.css"></head>
+<body cz-shortcut-listen="true">
+    <header>
+        <nav>
+            <h1 class="logo">GaiKoku</h1>
+            <div class="links">
+            <ul>
+                <li>Home</li>
+                <li>Packages</li>
+                <li>About</li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="section1">
+                <div class="section1left">
+                    <h1>Adventure at your own pace</h1>
+                    <p>Traveling around the world
+                        has never been this
+                        unexpensive and clever.
+                        Reserve your vacations now
+                        and pay with amounts
+                        you won't even notice.
+                    </p>
+                    <button class="section1signup">Sign up</button>
+                </div>
+                <div class="section1right">
+                    <img class="hero" src="Document_files/standingWoman.jpg" alt="Woman looking to the horizon">
+                </div>
+            </div>
+
+            <div class="section2">
+                <h2>Can we interest you on some of our destinations</h2>
+                <div class="section2container">
+                    <img src="Document_files/berlin.jpeg" alt="Berlin, Germany">
+                    <p class="smallText">Berlin, Germany</p>
+                </div>
+                <div class="section2container">
+                    <img src="Document_files/brazil.jpeg" alt="Rio de Janiero, Brazil">
+                    <p class="smallText">Rio de Janiero, Brazil</p>
+                </div>
+                <div class="section2container">
+                    <img src="Document_files/mexico.jpeg" alt="Mexico city, Mexico">
+                    <p class="smallText">Mexico City, mMxico</p>
+                </div>
+                <div class="section2container">
+                    <img src="Document_files/moscow.jpeg" alt="Moscow, Russia">
+                    <p class="smallText">Moscow, Russia</p>
+                </div>
+            </div>
+            <div class="section3">
+                <blockquote>
+                    “Not all those who wander are lost.” <span class="author">― J.R.R. Tolkien, The Fellowship of the Ring</span> 
+                </blockquote>
+            </div>
+            <div class="section4">
+                <h3>You won't regretet it. Get a quote today!</h3>
+                <p class="smallText">Click the button on the side to get a quote on our diverse packages and destinations.</p>
+                <button class="section4signup">Quote now!</button>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div>Copyright @ Adegorr 2024</div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
